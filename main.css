@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+*, *:after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+input, button, textarea {
+    font: inherit;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 100%;
+    margin-inline: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin-inline: auto;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0 1px 5px rgb(200, 191, 191);
+}
+
+.header__logo {
+    display: block;
+    place-content: center;
+    width: 100%;
+}
+
+.header__nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header__ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.5rem;   
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:any-link {
+    color: black;
+}
+
+a:hover, a:focus-visible, a:active {
+    color: blue;
+}
+
+.header__lst_item {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0.5em 0; */
+}
+
+.header__div {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__div__button_1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 8px 28px;
+    border: 1px solid rgb(126, 126, 207);
+    border-radius: 0.5rem;
+    background-color: #F7F8FC;
+    color: black;
+    /* font-weight: bold; */
+}
+
+.header__div__button_2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 8px 40px;
+    border: 1px solid rgb(126, 126, 207);
+    border-radius: 0.5rem;
+    background-color: #7a82d4;
+    color: white;
+    /* font-weight: bold; */
+}
+.backgroundimage{
+    float:right;
+
+}
+.content_1 {
+    font-style: normal;
+    font-size:xx-large;
+    text-align: center;
+    margin-top: 100px;
+    justify-content: center;
+    color: rgb(72, 60, 166);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+nav button{
+    border: 10;
+    outline: 10;
+    margin-right: 150px;
+    background:rgb(72, 60, 166);
+    color: white;
+}
+.content_2{
+    font-style:normal;
+    font-size:large;
+    text-align: center;
+    margin-top: 100px;
+    justify-content: center;
+    color: black;
+}
+.content_3{
+    justify-content: center;
+    padding-top: 300px;
+    padding-left: 650px;
+    font-size:large;
+    color: rgb(72, 60, 166);
+}
+.content_4{
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 500px;
+    font-style: normal;
+    font-weight: bold;
+    font-size:larger;
+    color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.section {
+    flex: 1 0 calc(33.3333% - 20px); 
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-sizing: border-box;
+}
+.instructor {
+    justify-content: left;
+    margin-top: 100px;
+    margin-left: 200px;
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: bold;
+    color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+nav button{
+    border: 10;
+    outline: 10;
+    margin-right: 150px;
+    background:rgb(72, 60, 166);
+    color: white;
+}
+.guide{
+    margin-top: 100px;
+    float: center;
+    justify-content: center;
+    object-fit: cover;
+    display: flex;
+}
+.trainer{
+    height: 350px;
+    width: 350px;
+    float: center;
+    object-fit: cover;
+    display: flex;
+}
+.details{
+    display: flex;
+    justify-content: center;
+}
+.foot{
+    justify-content: center;
+    text-align: center;
+    display:flex;
+    background-color:rgb(73, 73, 251);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  .linking{ 
+    float:center;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.external{
+   float: center;
+   display: flex;
+   justify-content: center;
+   gap: 200px;
+   margin-bottom: 150px;
+}
